@@ -17,7 +17,7 @@ const Header: FC<{ onHamburgerClick?: () => void }> = ({
   const router = useRouter();
   const { user, actions } = useAuthenticationStore();
 
-  const { mutate: postMutate } = AuthService.usePost<{
+  const { mutate: _postMutate } = AuthService.usePost<{
     user: any;
     accessToken: string;
     refreshToken: string;
@@ -34,7 +34,9 @@ const Header: FC<{ onHamburgerClick?: () => void }> = ({
   const handleUserMenuClick = (action: string) => {
     switch (action) {
       case "logout":
-        postMutate({ data: {} });
+        // postMutate({ data: {} });
+        actions.logout();
+        router.push(ROUTE_URL.LOGIN);
         break;
       case "profile":
         router.push(ROUTE_URL.PROFILE);
