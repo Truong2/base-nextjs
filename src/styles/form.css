@@ -1,0 +1,6 @@
+.form-error {
+  border-color: var(--color-red) !important;
+}
+.form-error > span {
+  line-height: 1.5;
+}

@@ -1,0 +1,111 @@
+{
+  "common": {
+    "confirm": "確認",
+    "no_data": "データなし",
+    "unit_steps": "歩",
+    "unit_climbs": "階",
+    "unit_days": "日",
+    "unit_hours": "時間",
+    "unit_minutes": "分"
+  },
+  "status": {
+    "active": "有効",
+    "inactive": "無効",
+    "coming_soon": "",
+    "closed": "閉じる",
+    "all_status": "すべてのステータス"
+  },
+  "header": {
+    "change_password": "パスワード変更",
+    "log_out": "ログアウト",
+    "undefined": "undefined"
+  },
+  "footer": {
+    "undefined": "undefined"
+  },
+  "sidebar": {
+    "undefined": "undefined",
+    "help": "ヘルプ",
+    "contact": "お問い合わせ",
+    "term_privacy": "利用規約・プライバシーポリシー",
+    "sleep": "睡眠",
+    "body_battery": "ボディバッテリー",
+    "stress": "ストレス",
+    "calories": "活動量",
+    "intensity_minutes": "効果的強度の運動",
+    "floors": "上昇階数",
+    "steps": "歩数",
+    "health_report": "健康データレポート",
+    "dashboard": "ダッシュボード"
+  },
+  "my_account": {
+    "undefined": "undefined",
+    "title": "マイアカウント"
+  },
+  "login": {
+    "undefined": "undefined",
+    "login": "ログイン",
+    "back_to_login": "ログインに戻る",
+    "reset_password": "パスワード再設定",
+    "reset_password_desc": "<0>{{email}}</0>に送信された6桁の認証コードを入力してください。<br/>コードの有効期限は30分です。",
+    "reset_password_desc_2": "新しいパスワードを入力してください",
+    "forgot_password": "パスワードを忘れた場合 ",
+    "forgot_password_desc": "パスワード再設定の手順をメールで送信します。",
+    "otp_desc": "メールが受信できない場合：",
+    "otp_step_1": "メールアドレスが正しいか確認してください",
+    "otp_step_2": "迷惑メールフォルダを確認してください",
+    "otp_step_3": "ドメインの受信を許可してください",
+    "otp_step_4": "メールアプリが正常に動作しているか確認してください",
+    "resend": "コードを再送信",
+    "verify_otp": "認証コード",
+    "back_verify_otp": "OTPを確認するため戻る"
+  },
+  "label": {
+    "email": "メールアドレス",
+    "email_placeholder": "メールアドレスを入力してください",
+    "password": "パスワード",
+    "password_placeholder": "パスワードを入力してください",
+    "verification_code": "認証コード",
+    "current_password": "現在のパスワード",
+    "current_password_placeholder": "現在のパスワードを入力してください",
+    "new_password": "新しいパスワード",
+    "new_password_placeholder": "新しいパスワードを入力してください",
+    "re_enter_password": "パスワードを再入力してください",
+    "re_enter_password_placeholder": "新しいパスワードを再入力してください"
+  },
+  "message": {
+    "E0": "サーバーエラー。後でもう一度やり直してください",
+    "E1": "{{field}}は必須項目です",
+    "E2": "{{field}}は形式が間違っています",
+    "E3": "パスワードには、少なくとも1大文字、1小文字、1特殊文字を含む8 文字に設定してください",
+    "E4": "パスワードが一致しません",
+    "E5": "システムには{{tabName}}はありません",
+    "E6": "システムには該当する{{tabName}}はありません",
+    "E7": "無効な{{field}}",
+    "E8": "新しいパスワードは現在のパスワードと同じにしてはいけません。",
+    "E9": "{{field}}は0より大きくなければなりません",
+    "E10": "メールが存在しません",
+    "E11": "メールアドレスまたはパスワードが間違っています。 もう一度試してください",
+    "E12": "新しいパスワードは現在のパスワードと同じにすることはできません"
+  },
+  "dashboard": {
+    "hello_user": "こんにちは、{username}さん",
+    "welcome_back": "おかえりなさい！こちらは最新の健康データです。最近の状態を確認して、改善できるポイントを見てみましょう。",
+    "check_out_opa_this_week": "今週のワンポイントアドバイスをチェックしましょう",
+    "see_details": "詳細表示",
+    "last_data_update": "最終データ更新日時：{date}",
+    "all_health_data": "健康データ",
+    "last_updated_at": "最終更新日時：{date}",
+    "analytic_here": "2次解析はこちら",
+    "health": {
+      "steps": "歩数",
+      "calories": "活動量",
+      "floors": "上昇",
+      "intensity_minutes": "効果的強度の運動",
+      "stress": "ストレス",
+      "body_battery": "ボディバッテリー",
+      "sleep": "睡眠",
+      "opa": "ワンポイントアドバイス"
+    }
+  }
+}

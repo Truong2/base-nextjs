@@ -1,0 +1,84 @@
+{
+  "common": {
+    "confirm": "Confirm"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "coming_soon": "Coming soon",
+    "closed": "Closed",
+    "all_status": "All Status"
+  },
+  "header": {
+    "change_password": "Change Password",
+    "log_out": "Log Out",
+    "undefined": "undefined"
+  },
+  "footer": {
+    "undefined": "undefined"
+  },
+  "sidebar": {
+    "undefined": "undefined",
+    "sleep": "Sleep",
+    "body_battery": "Body Battery",
+    "stress": "Stress",
+    "calories": "Calories",
+    "intensity_minutes": "Intensity Minutes",
+    "floors": "Floors",
+    "steps": "Steps",
+    "health_report": "Health Data Report",
+    "dashboard": "Dashboard"
+  },
+  "login": {
+    "undefined": "undefined",
+    "login": "Login",
+    "back_to_login": "Back to Login",
+    "reset_password": "Reset password",
+    "reset_password_desc": "Please enter the 6-digit verification code that sent to <0>{{email}}</0>. <br/> The code is valid for 30 minutes",
+    "reset_password_desc_2": "Please enter your new password",
+    "forgot_password": "Forgot password",
+    "forgot_password_desc": "We'll email your instructions on how to reset it",
+    "otp_desc": "If you haven't received the email, do the following:",
+    "otp_step_1": "Make sure provided email address is correct",
+    "otp_step_2": "Check spam or other folders",
+    "otp_step_3": "Set email address whitelist",
+    "otp_step_4": "Check the email client works normally",
+    "resend": "Resend code",
+    "verify_otp": "OTP Code",
+    "back_verify_otp": "Back to Verify OTP"
+  },
+  "label": {
+    "email": "Email",
+    "email_placeholder": "Enter your email",
+    "password": "Password",
+    "password_placeholder": "Enter your password",
+    "verification_code": "Verification code",
+    "current_password": "Current Password",
+    "current_password_placeholder": "Enter your current password",
+    "new_password": "New Password",
+    "new_password_placeholder": "Enter your new password",
+    "re_enter_password": "Re-enter Password",
+    "re_enter_password_placeholder": "Re-enter your new password"
+  },
+  "message": {
+    "E0": "Server Error. Please try again later",
+    "E1": "{{field}} is required",
+    "E2": "{{field}} is wrong format",
+    "E3": "Password must contain at least 8 characters, including 1 uppercase character, 1 lowercase character and 1 special character",
+    "E4": "Password does not match",
+    "E5": "There are no {{tabName}} in the system",
+    "E6": "There are no matched {{tabName}} in the system",
+    "E7": "Invalid {{field}}",
+    "E8": "Old password and new password can not be same.",
+    "E9": "{{field}} must be larger than 0",
+    "E10": "Email does not exist",
+    "E11": "Email or password is incorrect. Please try again",
+    "E12": "New password cannot be the same as current password"
+  },
+  "dashboard": {
+    "hello_user": "Hello, {username}",
+    "welcome_back": "Welcome back! Here’s your latest health data — let’s see how you’ve been doing and where you can improve.",
+    "check_out_opa_this_week": "Check out the One Point Advice for this week",
+    "see_details": "See Details"
+  }
+}

@@ -1,0 +1,14 @@
+export { default as InfoIcon } from "./InfoIcon";
+export { default as IconDashboard } from "./IconDashboard";
+export { default as IconHealthData } from "./IconHealthData";
+export { default as IconUp } from "./IconUp";
+export { default as IconContact } from "./IconContact";
+export { default as IconHelp } from "./IconHelp";
+export { default as IconSteps } from "./IconSteps";
+export { default as IconCalories } from "./IconCalories";
+export { default as IconFloors } from "./IconFloors";
+export { default as IconIntensityMinutes } from "./IconIntensityMinutes";
+export { default as IconBodyBattery } from "./IconBodyBattery";
+export { default as IconStress } from "./IconStress";
+export { default as IconSleep } from "./IconSleep";
+export { default as IconCalendar } from "./IconCalendar";

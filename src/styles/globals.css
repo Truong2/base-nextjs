@@ -1,0 +1,209 @@
+/* NProgress custom styling */
+@import "./nprogress.css";
+
+/* Custom Scrollbar Styles */
+@import "./scrollbar.css";
+
+@import "./form.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Button / Main Color */
+  --color-main: #00a2e0;
+  --color-main80: #00a2e080;
+  --color-second: #232323;
+  --color-white: #ffffff;
+  --color-support: #f4f5f6;
+
+  /* Title */
+  --color-neutral-900: #202025;
+
+  /* Content */
+  --color-neutral-800: #37383c;
+  --color-neutral-700: #707582;
+  --color-neutral-600-day: #37383c;
+
+  /* Input */
+  --color-neutral-600: #ededed;
+  --color-neutral-500: #f4f4f4;
+
+  /* Line */
+  --color-neutral-400: #eeeeee;
+
+  /* Background */
+  --color-tooltip: #f6f6f6;
+  --color-neutral-0: #f5f6fa;
+  --color-neutral-0-day: #eaeaeb;
+  --color-neutral-100: #ffffff;
+  --color-neutral-200: #ebecf0;
+
+  /* Notification */
+  --color-blue: #3976e5;
+  --color-orange: #ff7f50;
+  --color-red: #ff3a5e;
+  --color-green: #0fb863;
+  --color-yellow: #f0fd67;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  font-family: var(--font-noto-sans-jp);
+}
+
+/* heading styles */
+
+.heading-1 {
+  @apply text-45 font-semibold;
+}
+.heading-2 {
+  @apply text-40 font-semibold;
+}
+.heading-3 {
+  @apply text-36 font-semibold;
+}
+.heading-4 {
+  @apply text-32 font-semibold;
+}
+.heading-5 {
+  @apply text-28 font-semibold;
+}
+.heading-6 {
+  @apply text-24 font-semibold;
+}
+
+/* title styles */
+.title-28 {
+  @apply text-28 font-bold;
+}
+.title-20 {
+  @apply text-20 font-bold;
+}
+.title-18 {
+  @apply text-18 font-bold;
+}
+.title-16 {
+  @apply text-16 font-bold;
+}
+.title-14 {
+  @apply text-14 font-bold;
+}
+.title-13 {
+  @apply text-13 font-bold;
+}
+.title-12 {
+  @apply text-12 font-bold;
+}
+/* subtitle styles */
+.subtitle-20 {
+  @apply text-20 font-semibold;
+}
+.subtitle-18 {
+  @apply text-18 font-semibold;
+}
+.subtitle-16 {
+  @apply text-16 font-semibold;
+}
+.subtitle-14 {
+  @apply text-14 font-semibold;
+}
+.subtitle-13 {
+  @apply text-13 font-semibold;
+}
+.subtitle-12 {
+  @apply text-12 font-semibold;
+}
+.subtitle-10 {
+  @apply text-10 font-semibold;
+}
+
+.subtitle-10 {
+  @apply text-[10px] font-medium;
+}
+
+.subtitle-10 {
+  @apply text-[10px] font-medium;
+}
+/* content styles */
+.content-18 {
+  @apply text-18 font-medium;
+}
+.content-16 {
+  @apply text-16 font-medium;
+}
+.content-14 {
+  @apply text-14 font-medium;
+}
+.content-13 {
+  @apply text-13 font-medium;
+}
+.content-12 {
+  @apply text-12 font-medium;
+}
+.content-10 {
+  @apply text-[10px] font-medium;
+}
+
+.button-13 {
+  @apply text-13 font-bold;
+}
+
+/* button styles */
+.btn-tab {
+  @apply text-20 font-medium;
+}
+.btn {
+  @apply text-14 font-semibold leading-[100%];
+}
+.btn-text {
+  @apply text-14 font-medium;
+}
+
+.placeholder-13 {
+  @apply text-13 font-medium leading-[100%];
+}
+
+.no-chart-outline .recharts-surface,
+.no-chart-outline .recharts-surface:focus,
+.no-chart-outline .recharts-surface:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.recharts-wrapper {
+  transform: translateZ(0);
+}
+
+.content-setting-disc li[data-list="bullet"] {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  padding-left: 0.5em;
+}
+
+.ql-editor {
+  li[data-list="bullet"] {
+    list-style-type: disc;
+    margin-left: 1.5em;
+    padding-left: 0.5em;
+    font-size: 0.875rem;
+  }
+  li[data-list="bullet"]::marker {
+    font-size: 0.75rem;
+  }
+  li[data-list="ordered"] {
+    list-style-type: decimal;
+    margin-left: 1.5em;
+    padding-left: 0.5em;
+    font-size: 0.875rem;
+  }
+  li[data-list="ordered"]::marker {
+    font-size: 0.75rem;
+  }
+}
